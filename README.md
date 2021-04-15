@@ -9,9 +9,9 @@
 </p>
 
 ## History
-原作者@mauricef （https://github.com/mauricef/WindowTabs）
-该版本Fork自https://github.com/leafOfTree/WindowTabs
-在Win10最新的预览版上进行了适配
+- 原作者@mauricef （https://github.com/mauricef/WindowTabs）
+- 该版本Fork自https://github.com/leafOfTree/WindowTabs
+- 在Win10最新的预览版上进行了适配
 
 ## Changes
 
