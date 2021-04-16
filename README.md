@@ -3,7 +3,7 @@
 一个可以提供多选项卡的扩展工具
 
 <p>
-<img alt="screenshot" src="https://user-images.githubusercontent.com/8959123/115018178-237f1900-9eea-11eb-9968-24720807da77.png" width="300" />
+<img alt="screenshot" src="https://user-images.githubusercontent.com/8959123/115021454-8e325380-9eee-11eb-8437-d2f05b486c3d.png" width="300" />
 <img alt="screenshot" src="https://user-images.githubusercontent.com/8959123/115018236-32fe6200-9eea-11eb-9866-6df31f374ee7.png" width="300" />
 </p>
 
