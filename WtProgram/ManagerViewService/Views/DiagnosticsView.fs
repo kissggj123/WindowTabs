@@ -35,7 +35,7 @@ type DiagnosticsView() as this =
                 textBox.SelectAll()
                 textBox.Refresh()
                 textBox.Copy()
-                MessageBox.Show("Please paste (CTRL + V) into an email and send to 'support@windowtabs.com'", "Copied to clipboard").ignore
+                MessageBox.Show("Please paste (CTRL + V) into an email and send to 'menglolita@menglolita.com'", "Copied to clipboard").ignore
             btn
         ts.Items.Add(refreshBtn).ignore
         ts.Items.Add(copyBtn).ignore

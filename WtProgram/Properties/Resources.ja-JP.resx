@@ -138,7 +138,7 @@
   <data name="Border" xml:space="preserve">
     <value>枠線</value>
   </data>
-  <data name="CloseWindowTabs" xml:space="preserve">
+  <data name="CloseWindowTabs-Plus" xml:space="preserve">
     <value>終了</value>
   </data>
   <data name="combineIconsInTaskbar" xml:space="preserve">
@@ -208,7 +208,7 @@
     <value>削除</value>
   </data>
   <data name="replaceAltTab" xml:space="preserve">
-    <value>ALT+TABをWindowTabsのタスク切替で使う</value>
+    <value>ALT+TABをWindowTabs-Plusのタスク切替で使う</value>
   </data>
   <data name="Reset" xml:space="preserve">
     <value>リセット</value>
@@ -217,7 +217,7 @@
     <value>元に戻す</value>
   </data>
   <data name="runAtStartup" xml:space="preserve">
-    <value>電源投入時にWindowTabsを起動</value>
+    <value>電源投入時にWindowTabs-Plusを起動</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>設定</value>

@@ -138,8 +138,8 @@
   <data name="Border" xml:space="preserve">
     <value>Border</value>
   </data>
-  <data name="CloseWindowTabs" xml:space="preserve">
-    <value>Close WindowTabs</value>
+  <data name="CloseWindowTabs-Plus" xml:space="preserve">
+    <value>Close WindowTabs-Plus</value>
   </data>
   <data name="combineIconsInTaskbar" xml:space="preserve">
     <value>Combine icons in taskbar by default</value>
@@ -208,7 +208,7 @@
     <value>Remove</value>
   </data>
   <data name="replaceAltTab" xml:space="preserve">
-    <value>Replace ALT+TAB with WindowTabs task switcher.</value>
+    <value>Replace ALT+TAB with WindowTabs-Plus task switcher.</value>
   </data>
   <data name="Reset" xml:space="preserve">
     <value>Reset</value>
@@ -217,7 +217,7 @@
     <value>Restore</value>
   </data>
   <data name="runAtStartup" xml:space="preserve">
-    <value>Run WindowTabs at startup</value>
+    <value>Run WindowTabs-Plus at startup</value>
   </data>
   <data name="Settings" xml:space="preserve">
     <value>Settings...</value>

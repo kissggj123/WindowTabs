@@ -149,7 +149,7 @@ type TaskBarButton(info) as this =
 
         invoker.asyncInvoke <| fun() ->
             let hicon = Services.openIcon("Bemo.ico").Handle
-            taskbar.SetOverlayIcon(this.window.hwnd, hicon, "WindowTabs")
+            taskbar.SetOverlayIcon(this.window.hwnd, hicon, "WindowTabs-Plus")
        
     member this.tabWindow key = tabWindowsCell.value.find(key).window
 

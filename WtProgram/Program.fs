@@ -44,10 +44,10 @@ type ProgramVersion(parts:List2<int>)=
         this.compare(v2) > 0
 
 type Program() as this =
-    let version = "2018.7.20"
+    let version = "2.3.3"
     let isStandAlone = System.Diagnostics.Debugger.IsAttached 
 
-    let mutex = new Mutex(false, "BemoSoftware.WindowTabs")
+    let mutex = new Mutex(false, "BemoSoftware.WindowTabs-Plus")
     let Cell = CellScope()
     let os = OS()
     let invoker = InvokerService.invoker
@@ -111,7 +111,7 @@ type Program() as this =
     member this.updateRunAtStartup(value)=
         let runAtStartup = value.cast<bool>()
         let key = Microsoft.Win32.Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Microsoft\Windows\CurrentVersion\Run", true)
-        let keyName = "WindowTabs"
+        let keyName = "WindowTabs-Plus"
         if runAtStartup then
             let entryAssembly = System.Reflection.Assembly.GetEntryAssembly()
             let exeUri = Uri(entryAssembly.CodeBase)
@@ -352,7 +352,7 @@ type Program() as this =
         
         if System.Diagnostics.Debugger.IsAttached.not then
             if mutex.WaitOne(TimeSpan.FromSeconds(0.5), false).not then
-                MessageBox.Show("Another instance of WindowTabs is running, please close it before running this instance.", "WindowTabs is already running.").ignore
+                MessageBox.Show("Another instance of WindowTabs-Plus is running, please close it before running this instance.", "WindowTabs-Plus is already running.").ignore
                 exit(0)
 
         Application.EnableVisualStyles()

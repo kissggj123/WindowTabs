@@ -41,7 +41,7 @@ type LicenseView() as this =
             let label =
                 let l = Label()
                 l.Dock <- DockStyle.Fill
-                l.Text <- "If you are unable to activate over the internet, contact support@windowtabs.com and we will supply an activation code to paste below"
+                l.Text <- "If you are unable to activate over the internet, contact menglolita@menglolita.com and we will supply an activation code to paste below"
                 l
             let keyBox = 
                 let box = TextBox()
@@ -105,7 +105,7 @@ type LicenseView() as this =
             statusLabel.Font <- Font(statusLabel.Font, FontStyle.Bold)
             statusLabel.ForeColor <- Color.Black
         else
-            statusLabel.Text <- "Activated! Enjoy WindowTabs!"
+            statusLabel.Text <- "Activated! Enjoy WindowTabs-Plus!"
             statusLabel.Font <- Font(statusLabel.Font, FontStyle.Bold)
             statusLabel.ForeColor <- Color.Green
 
@@ -114,10 +114,10 @@ type LicenseView() as this =
         Services.lm.licenseKey <- licenseKey
         if Services.lm.isLicensed then
             this.updateLockedStatus()
-            MessageBox.Show("WindowTabs has been successfully activated!", "WindowTabs Activated").ignore
+            MessageBox.Show("WindowTabs-Plus has been successfully activated!", "WindowTabs-Plus Activated").ignore
         else
             this.updateLockedStatus()
-            MessageBox.Show("Please ensure your computer has internet access and that your license key is correct. Email support@windowtabs.com if you are having trouble activating WindowTabs.", "Activation Failed").ignore
+            MessageBox.Show("Please ensure your computer has internet access and that your license key is correct. Email menglolita@menglolita.com if you are having trouble activating WindowTabs.", "Activation Failed").ignore
 
     interface ISettingsView with
         member x.key = SettingsViewType.LicenseSettings

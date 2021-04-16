@@ -19,7 +19,7 @@ namespace Bemo
         }
         public static String FormatTitle(String title)
         {
-            return String.Format("WindowTabs v{0} | {1}", GetCurrentVersion(), title);
+            return String.Format("WindowTabs-Plus v{0} | {1}", GetCurrentVersion(), title);
         }
         public static void DisableVisualStyles(IntPtr handle)
         {

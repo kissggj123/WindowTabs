@@ -9,7 +9,7 @@ open Bemo.Win32.Forms
 module Forms =
     let os = OS()
     let showForm hwnd (form:#Form) text (ok:Button) (cancel:Button) onOk =
-        form.Text <- "WindowTabs | " + text
+        form.Text <- "WindowTabs-Plus | " + text
         form.Icon <- Services.openIcon("Bemo.ico")
         ok.Click.Add <| fun _ -> onOk()
         cancel.Click.Add <| fun _ -> form.Close()
@@ -23,5 +23,5 @@ module Forms =
         Services.managerView.show(SettingsViewType.LicenseSettings)
          
     let openFeedback() =
-        let sInfo = new ProcessStartInfo("https://windowtabs.uservoice.com/")
+        let sInfo = new ProcessStartInfo("https://www.menglolita.com/")
         Process.Start(sInfo).ignore
