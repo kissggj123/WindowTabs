@@ -1,4 +1,4 @@
-# WindowTabs
+# WindowTabs-Plus
 
 一个可以提供多选项卡的扩展工具
 
